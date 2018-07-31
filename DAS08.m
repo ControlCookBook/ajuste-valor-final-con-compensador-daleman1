@@ -3,7 +3,7 @@ clear all
 clc
 G=tf([1],[1 10 24])
 GC=feedback(G,1)
-num=[5]
+num=[11.53]
 den=[1 10 24]
 %Respuesta a un escalon 
 c=tf([num],[1])
